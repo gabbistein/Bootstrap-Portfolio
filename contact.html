@@ -35,13 +35,32 @@
             
                     <!-- The fields below will eventually link to a contact option. -->
             
-                    <p>Name<br>
-                    <input class="textfield" type="text" name="Name" placeholder="John Doe"><br>
-                    Email<br>
-                    <input class="textfield" type="text" name="Email" placeholder="johndoe@email.com"><br>
-                    Message<br>
-                    <textarea class="textfield" type="text" name="Message" style="resize-vertical" placeholder="Your Message Here"></textarea><br>
-                    <input class="button" type="submit" name="Submit"></p>
+                    <p>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                        
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                              <span class="input-group-text">Message</span>
+                        </div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-secondary mt-3">Submit</button>
+
+                    </p>
                             
                 </div>
             </div>
