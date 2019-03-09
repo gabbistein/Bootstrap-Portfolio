@@ -1,1 +1,43 @@
-/* Nothing to see here! */
+html {
+    overflow-y:scroll;
+}
+
+body {
+    background-image: url("../images/palm-leaf.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position:left top;
+    color: #777777;
+}
+
+h1 {
+    background-color:#4aaaa5;
+    color:white;
+}
+
+h2 {
+    color:#4aaaa5;
+}
+
+footer.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color:#666666;
+}
+
+footer.portfooter {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color:#666666;
+}
+
+footer {
+    border-top:1rem solid #4aaaa5;
+    color:#ffffffc7;
+}

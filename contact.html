@@ -6,74 +6,60 @@
             <title>Gabbi's Portfolio</title>
 
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-            <!-- The reset stylesheet will negate the effects of Bootstrap so it shouldn't be used...right? -->
             <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
         
     <body>
-
-        <header>
+        <nav class="navbar navbar-expand-md bg-white p-0 mb-3 border-bottom">
             <div class="container">
-                <div class="row navbar navbar-default">
-                    <div class="col-lg-5 inline">
+    
+                <h1 class="navbar-brand p-3 m-0">Gabbi Stein</h1>
 
-                    <h1 class="logo">Gabbi Stein</h1>
-
-                    </div>
-
-                    <div class="col-lg-5 inline text-right">             
-                        <a href="index.html">About</a> | 
-                        <a href="portfolio.html">Portfolio</a> | 
-                        <a href="contact.html">Contact</a>
-                    </div>
-
-                    </div>
-                    </nav>
-
+                <div class="nav-item">             
+                    <a href="index.html">About</a> | 
+                    <a href="portfolio.html">Portfolio</a> | 
+                    <a href="contact.html">Contact</a>
                 </div>
+        
             </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row justify-content-center border m-0">
+                <div class="col-md-12 bg-white">
 
-        </header>
-
-        <div class="container" id="main-body">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-
-                    <h2>Contact</h2>
+                    <h2 class="pt-3">Contact</h2>
             
                     <hr><br>
             
                     <!-- The fields below will eventually link to a contact option. -->
             
-                            <p>Name<br>
-                            <input class="textfield" type="text" name="Name" placeholder="John Doe"><br>
-                            Email<br>
-                            <input class="textfield" type="text" name="Email" placeholder="johndoe@email.com"><br>
-                            Message<br>
-                            <textarea class="textfield" type="text" name="Message" style="resize-vertical" placeholder="Your Message Here"></textarea><br>
-                            <input class="button" type="submit" name="Submit"></p>
-                                           
-            <div class="row">
-                <div class="col-md-12">
-                    <footer>
-                        <div class="container text-center">
-                        © 2019 Gabbi Stein
-                        </div> 
-                    </footer>
-                </div>
-            </div>
-
-
+                    <p>Name<br>
+                    <input class="textfield" type="text" name="Name" placeholder="John Doe"><br>
+                    Email<br>
+                    <input class="textfield" type="text" name="Email" placeholder="johndoe@email.com"><br>
+                    Message<br>
+                    <textarea class="textfield" type="text" name="Message" style="resize-vertical" placeholder="Your Message Here"></textarea><br>
+                    <input class="button" type="submit" name="Submit"></p>
+                            
                 </div>
             </div>
         </div>
 
+        <footer class="footer bg-none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        © 2019 Gabbi Stein
+                    </div>
+                </div>                
+            </div>
+        </footer>
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
             
     </body>
 </html>
