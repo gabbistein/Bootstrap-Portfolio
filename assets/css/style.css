@@ -45,3 +45,13 @@ footer {
 a {
     color:#777777;
 }
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 3px;
+}
+
+.container {
+    margin-bottom:1rem;
+}
