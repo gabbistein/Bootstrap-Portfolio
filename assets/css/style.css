@@ -10,9 +10,15 @@ body {
     color: #777777;
 }
 
+a:hover {
+    color:#3c8a86;
+    text-decoration: none;
+}
+
 h1 {
     background-color:#4aaaa5;
     color:white;
+    height: 100%;
 }
 
 h2 {
@@ -39,7 +45,7 @@ footer.portfooter {
 
 footer {
     border-top:1rem solid #4aaaa5;
-    color:#ffffffc7;
+    color:#9c9c9cc7;
 }
 
 a {
@@ -52,6 +58,6 @@ a {
     margin-bottom: 3px;
 }
 
-.container {
+.body-container {
     margin-bottom:1rem;
 }
