@@ -15,6 +15,11 @@ body {
     text-decoration: none;
 }
 
+.portfolio-link:hover {
+    color:rgb(119, 175, 184);
+    text-decoration: none;
+}
+
 h1 {
     background-color:rgb(119, 175, 184);
     color:white;
