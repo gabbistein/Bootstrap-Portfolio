@@ -9,20 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-md bg-white p-0 mb-3 border-bottom">
         <div class="container">
 
-            <h1 class="navbar-brand p-3 m-0">Gabbi Stein</h1>
+            <h1 class="navbar-brand pl-4 pr-4 pt-3 pb-3 m-0">Gabbi Stein</h1>
 
             <div class="nav-item">
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="header-link">About </a> |
+                <a href="portfolio.html" class="header-link"> Portfolio </a> |
+                <a href="contact.html" class="header-link"> Contact</a>
             </div>
 
         </div>
@@ -32,9 +30,11 @@
         <div class="row justify-content-center border m-0 shadow-sm">
             <div class="col-md-12 bg-white">
 
-                <h2 class="pt-3">About Me</h2>
+                <h2 class="pt-3">
+                    <div class="title-text pl-1 pt-1">About Me</div>
+                </h2>
 
-                <hr><br>
+                <hr class="mb-1"><br>
 
                 <img src="assets/images/pfp.jpg" class="img-thumbnail float-left mr-3" alt="Responsive picture"
                     width="200">
@@ -50,30 +50,39 @@
                     new clients, etc. As a person who likes people, I very much enjoy the interactions I experience each
                     day at work.</p><br>
 
-                <p>When I'm not at work, I like to explore the world around me—whether it be through a novel, video
-                    game, or long walk. I am very interested in video games and their surrounding culture, and many of
-                    my experiences while playing them have been the strongest connections I've had to any form of media.
-                    I'm also a fan of trying new restaurants and I spend a lot of my time looking for new places to try.
-                </p>
+                <div class="social-section">
 
-                <div class="row bottom-row text-center">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-light"><a
-                                href="https://www.linkedin.com/in/gabriella-stein/">My LinkedIn</a></button>
-                    </div>
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-light"><a href="https://github.com/gabbistein">My
-                                GitHub</a></button>
-                    </div>
-                </div><br>
+                    <div class="media position-relative">
+                        <a href="https://github.com/gabbistein"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" width="55px"
+                                class="align-self-center mr-3" id="social-image" alt="github"></a>
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://github.com/gabbistein" id="lighten-text">My GitHub Profile</a></h5>
+                            <p>Here you'll find the repositories and code behind my portfolio projects.</p>
+                        </div>
+                    </div><br>
 
-                <p>Please don't hesitate to reach out—I look forward to connecting with you!</p><br>
+                    <div class="media position-relative">
+                        <a href="https://www.linkedin.com/in/gabriella-stein/"><img
+                                src="https://s18955.pcdn.co/wp-content/uploads/2019/04/LinkedInlarge.png" width="55px"
+                                class="align-self-center mr-3" id="social-image" alt="github"></a>
+                        <div class="media-body">
+                            <h5 class="mt-0"><a
+                                    href="https://www.linkedin.com/in/gabriella-stein/" id="lighten-text">My LinkedIn Profile</a>
+                            </h5>
+                            <p>Come see what I've been up to lately—professionally!</p>
+                        </div>
+                    </div><br>
 
+                </div>
+
+                <p>When I'm not at work, I like to explore the world around me—whether it be through a novel, video game, or long walk. On weekdays, you can probably find me on Yelp, scoping out new restaurants to try.</p>
+
+                <p>Feel free to get in touch! Please see the Contact page for more details. I look forward to connecting with you!</p><br>
             </div>
         </div>
     </div>
 
-    <footer class="footer bg-none">
+    <footer class="portfooter bg-none">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center">
