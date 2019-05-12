@@ -3,32 +3,32 @@ html {
 }
 
 body {
-    background-image: url("../images/palm-leaf.png");
+    background-image: url("../images/exclusive_paper.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position:left top;
-    color: #777777;
+    color: #686868;
 }
 
 .header-link:hover {
-    color:rgb(119, 175, 184);
+    color: rgb(61, 69, 77);
     text-decoration: none;
 }
 
 .portfolio-link:hover {
-    color:rgb(119, 175, 184);
+    color: rgb(86, 97, 107);
     text-decoration: none;
 }
 
 h1 {
-    background-color:rgb(119, 175, 184);
+    background-color:rgb(57, 64, 71);
     color:white;
     height: 100%;
 }
 
 h1:hover{
     transition: 0.5s ease-in-out;
-    background-color: rgb(148, 199, 207);
+    background-color: rgb(86, 97, 107);
 }
 
 .btn:hover {
@@ -37,7 +37,7 @@ h1:hover{
 }
 
 h2 {
-    color:rgb(119, 175, 184);
+    color:rgb(57, 64, 71);
 }
 
 footer.footer {
@@ -46,7 +46,7 @@ footer.footer {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color:#666666;
+    background-color:rgb(57, 64, 71);
 }
 
 footer.portfooter {
@@ -55,12 +55,12 @@ footer.portfooter {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color:#666666;
+    background-color:rgb(57, 64, 71);
 }
 
 footer {
-    border-top:1rem solid rgb(119, 175, 184);
-    color:#9c9c9cc7;
+    /* border-top:1rem solid rgb(74, 83, 92); */
+    color:#777777;
 }
 
 .social-section {
@@ -104,6 +104,6 @@ a {
 }
 
 .btn-light {
-    background-color: rgb(119, 175, 184);
-    border: solid rgb(103, 152, 160);
+    background-color: rgb(57, 64, 71);
+    border: solid rgb(52, 58, 65);
 }
